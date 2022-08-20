@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    text-align: center;
+    font-family: monospace;
+    margin: 50px;
+}
+
+h1{
+    margin: 60px 0 40px;
+    font-size: 50px;
+    font-weight: 100;
+}
+
+.buttons {
+    margin: 25px auto;
+}
+
+#output {
+    margin: 5px auto 0;
+    border: 2px solid #2980b9;
+    border-radius: 5px;
+    width: 300px;
+    height: 60px;
+    font-size: 45px;
+    text-align: right;
+    padding-right: 10px;
+    overflow-x: scroll;
+    color: #6C7A89;
+}
+
+.row {
+    margin: 20px 0;
+}
+
+.row-cell{
+    display: inline;
+    font-size: 45px;
+    margin: 1px;
+    padding: 5px 20px;
+    border: 2px solid #2980b9;
+    border-radius: 5px;
+    outline: none;
+    background: transparent;
+    font-family: monospace;
+    color: #6C7A89;
+}
+
+.number:hover {
+    background: #2ecc71;
+    cursor: pointer;
+    color: white;
+    transition: 0.25s;
+}
+
+.operator:hover, .clear:hover, .equate:hover {
+    background: #F2784B;
+    cursor: pointer;
+    color: white;
+    transition: 0.25s;
+}
